@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f7f2db18174fc685887099185cf75b, type: 3}
+  m_Name: Bundle1
+  m_EditorClassIdentifier: 
+  spendable:
+    rid: 7448397765990416384
+  reward:
+    rid: 7448397765990416385
+  references:
+    version: 2
+    RefIds:
+    - rid: 7448397765990416384
+      type: {class: GoldData, ns: BundleShop.Gold, asm: Gold}
+      data:
+        gold: 5
+    - rid: 7448397765990416385
+      type: {class: LocationData, ns: BundleShop.Location, asm: Location}
+      data:
+        location: 2
