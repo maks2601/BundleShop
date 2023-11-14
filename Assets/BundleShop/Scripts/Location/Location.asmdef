@@ -2,7 +2,8 @@
     "name": "Location",
     "rootNamespace": "",
     "references": [
-        "GUID:0a2306f61cb764453b14c0f3180e7165"
+        "GUID:0a2306f61cb764453b14c0f3180e7165",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
