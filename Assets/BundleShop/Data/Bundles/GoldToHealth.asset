@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f7f2db18174fc685887099185cf75b, type: 3}
+  m_Name: GoldToHealth
+  m_EditorClassIdentifier: 
+  bundleName: Gold to Health
+  spendable:
+    rid: 7448397780198096898
+  reward:
+    rid: 7448397780198096899
+  references:
+    version: 2
+    RefIds:
+    - rid: 7448397780198096898
+      type: {class: GoldSpendable, ns: BundleShop.Gold, asm: Gold}
+      data:
+        _gold: 5
+    - rid: 7448397780198096899
+      type: {class: FixedHealthReward, ns: BundleShop.Health, asm: Health}
+      data:
+        _health: 3

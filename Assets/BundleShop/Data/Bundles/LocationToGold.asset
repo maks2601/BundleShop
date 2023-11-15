@@ -10,20 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9f7f2db18174fc685887099185cf75b, type: 3}
-  m_Name: Bundle1
+  m_Name: LocationToGold
   m_EditorClassIdentifier: 
+  bundleName: Location to Gold
   spendable:
-    rid: 7448397765990416384
+    rid: 7448397780198096905
   reward:
-    rid: 7448397765990416385
+    rid: 7448397780198096906
   references:
     version: 2
     RefIds:
-    - rid: 7448397765990416384
-      type: {class: GoldData, ns: BundleShop.Gold, asm: Gold}
+    - rid: 7448397780198096905
+      type: {class: LocationSpendable, ns: BundleShop.Location, asm: Location}
       data:
-        gold: 5
-    - rid: 7448397765990416385
-      type: {class: LocationData, ns: BundleShop.Location, asm: Location}
+        _location: 1
+    - rid: 7448397780198096906
+      type: {class: GoldReward, ns: BundleShop.Gold, asm: Gold}
       data:
-        location: 2
+        _gold: 10
