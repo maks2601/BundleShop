@@ -27,4 +27,4 @@ MonoBehaviour:
     - rid: 7448397780198096897
       type: {class: LocationReward, ns: BundleShop.Location, asm: Location}
       data:
-        _location: 4
+        _location: Forest

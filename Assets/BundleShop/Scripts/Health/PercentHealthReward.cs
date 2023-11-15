@@ -11,7 +11,7 @@ namespace BundleShop.Health
         
         public void Reward()
         {
-            int healthReward = HealthManager.Instance.Health * _healthPercent / 100;
+            int healthReward = Mathf.CeilToInt(HealthManager.Instance.Health * _healthPercent / 100f);
             HealthManager.Instance.Health += healthReward;
         }
     }

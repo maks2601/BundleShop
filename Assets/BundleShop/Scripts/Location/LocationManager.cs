@@ -5,11 +5,13 @@ namespace BundleShop.Location
 {
     public class LocationManager : Singleton<LocationManager>
     {
-        public event Action<LocationType> LocationChanged; 
+        public event Action<string> LocationChanged;
 
-        private LocationType _location;
+        public const string DEFAULT_LOCATION = "Default";
+
+        private string _location = DEFAULT_LOCATION;
         
-        public LocationType Location
+        public string Location
         {
             get
             {

@@ -11,7 +11,7 @@ namespace BundleShop.Health
         
         public void Spend()
         {
-            int healthSpend = HealthManager.Instance.Health * _healthPercent / 100;
+            int healthSpend = Mathf.CeilToInt(HealthManager.Instance.Health * _healthPercent / 100f);
             HealthManager.Instance.Health -= healthSpend;
         }
 
@@ -19,8 +19,8 @@ namespace BundleShop.Health
         {
             get
             {
-                int healthSpend = HealthManager.Instance.Health * _healthPercent / 100;
-                return HealthManager.Instance.Health >= healthSpend;
+                int healthSpend = Mathf.CeilToInt(HealthManager.Instance.Health * _healthPercent / 100f);
+                return HealthManager.Instance.Health > healthSpend;
             }
         }
     }

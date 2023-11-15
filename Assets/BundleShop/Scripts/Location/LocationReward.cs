@@ -7,7 +7,7 @@ namespace BundleShop.Location
     [Serializable]
     public class LocationReward : IReward
     {
-        [SerializeField] private LocationType _location;
+        [SerializeField] private string _location;
         
         public void Reward()
         {

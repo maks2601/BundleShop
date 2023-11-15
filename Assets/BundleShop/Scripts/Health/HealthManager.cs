@@ -7,7 +7,7 @@ namespace BundleShop.Health
     {
         public event Action<int> HealthChanged; 
 
-        private int _health;
+        private int _health = 5;
         
         public int Health
         {

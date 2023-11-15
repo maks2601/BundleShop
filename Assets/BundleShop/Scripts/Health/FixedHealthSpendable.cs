@@ -18,7 +18,7 @@ namespace BundleShop.Health
         {
             get
             {
-                return HealthManager.Instance.Health >= _health;
+                return HealthManager.Instance.Health > _health;
             }
         }
     }

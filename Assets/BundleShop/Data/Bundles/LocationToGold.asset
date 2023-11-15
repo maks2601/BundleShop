@@ -23,7 +23,7 @@ MonoBehaviour:
     - rid: 7448397780198096905
       type: {class: LocationSpendable, ns: BundleShop.Location, asm: Location}
       data:
-        _location: 1
+        _location: Town
     - rid: 7448397780198096906
       type: {class: GoldReward, ns: BundleShop.Gold, asm: Gold}
       data:

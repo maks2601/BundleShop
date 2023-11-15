@@ -16,14 +16,14 @@ namespace BundleShop.Location
             SetLocation(LocationManager.Instance.Location);
         }
 
-        private void SetLocation(LocationType locationType)
+        private void SetLocation(string location)
         {
-            _locationText.SetText(locationType.ToString());
+            _locationText.SetText(location);
         }
 
         private void SetDefaultLocation()
         {
-            LocationManager.Instance.Location = LocationType.DEFAULT;
+            LocationManager.Instance.Location = LocationManager.DEFAULT_LOCATION;
         }
         
         private void OnDisable()
